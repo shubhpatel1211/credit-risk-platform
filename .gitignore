@@ -1,4 +1,4 @@
-# Python virtual environment
+# Virtual environment
 .venv/
 
 # Python cache
@@ -8,12 +8,16 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Environment variables
+# Environment variables / secrets
 .env
 
-# IDE
+# VS Code
 .vscode/
 
-# Operating system files
+# Raw datasets
+data/raw/*
+!data/raw/.gitkeep
+
+# OS files
 .DS_Store
 Thumbs.db
